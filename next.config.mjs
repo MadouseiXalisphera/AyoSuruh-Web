@@ -1,6 +1,5 @@
-import type { NextConfig } from "next";
-
-const config: NextConfig = {
+/** @type {import('next').NextConfig} */
+const nextConfig = {
   // Baris ini yang paling krusial biar Next.js ngeluarin folder "out"
   output: 'export',
 
@@ -13,4 +12,4 @@ const config: NextConfig = {
   },
 };
 
-export default config;
+export default nextConfig;
