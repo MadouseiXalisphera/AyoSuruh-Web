@@ -1,27 +1,21 @@
 # Nama workflow
 name: Deploy Next.js site to Pages
 
-# Pemicu run: saat ada push ke branch 'main'
 on:
   push:
     branches: ["main"]
-
-  # Mengizinkan run manual dari tab Actions
   workflow_dispatch:
 
-# Mengatur permission GITHUB_TOKEN
 permissions:
   contents: read
   pages: write
   id-token: write
 
-# Mengelola concurrency agar tidak bentrok
 concurrency:
   group: "pages"
   cancel-in-progress: false
 
 jobs:
-  # Job untuk Build
   build:
     runs-on: ubuntu-latest
     steps:
@@ -47,10 +41,7 @@ jobs:
           node-version: "20"
           cache: ${{ steps.detect-package-manager.outputs.manager }}
 
-      - name: Setup Pages
-        uses: actions/configure-pages@v4
-        with:
-          static_site_generator: next
+      # Langkah "Setup Pages" yang sotoy udah gw hapus dari sini!
 
       - name: Install dependencies
         run: ${{ steps.detect-package-manager.outputs.manager }} ${{ steps.detect-package-manager.outputs.command }}
@@ -63,7 +54,6 @@ jobs:
         with:
           path: ./out
 
-  # Job untuk Deploy
   deploy:
     environment:
       name: github-pages
