@@ -10,7 +10,7 @@ export default function Home() {
           {/* Logo Section */}
           <div className="flex items-center gap-3">
             <Image 
-              src="/Logo Ayo Suruh.jpeg" 
+              src="/AyoSuruh-Web/logo-ayosuruh.jpeg" // Nama file baru & path baru
               alt="Logo ayoSuruh" 
               width={50} 
               height={50}
@@ -57,7 +57,7 @@ export default function Home() {
               Layanan Kami
             </a>
             <a 
-              href="/ayoSuruh.apk" 
+              href="/AyoSuruh-Web/ayoSuruh.apk"
               download="ayoSuruh-App.apk" 
               className="flex items-center text-gray-700 hover:text-[#F18B33] font-bold transition gap-3 w-full sm:w-auto justify-center sm:justify-start group cursor-pointer"
             >
@@ -81,7 +81,7 @@ export default function Home() {
           {/* PERBAIKAN PATH GAMBAR: Jangan pakai /public */}
           <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-56 h-56 md:w-80 md:h-80 bg-[#FFFDF9] rounded-full z-10 shadow-2xl overflow-hidden border-8 border-white">
             <Image 
-              src="/AYOS/ayos7.png" 
+              src="/AyoSuruh-Web/AYOS/ayos7.png" 
               alt="Maskot ayoSuruh"
               fill
               className="object-cover"
@@ -245,7 +245,7 @@ Kami hadir untuk mahasiswa aktif yang memiliki jadwal kuliah dan organisasi yang
           <div className="md:w-1/2 flex justify-center relative z-10">
             <div className="relative w-full max-w-[450px] h-[400px] md:h-[500px]">
               <Image 
-                src="/AYOS/ayos3.png" 
+                src="/AyoSuruh-Web/AYOS/ayos3.png" 
                 alt="Aplikasi Mobile Ayo Suruh"
                 fill
                 className="object-contain"
