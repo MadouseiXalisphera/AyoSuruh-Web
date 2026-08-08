@@ -10,7 +10,7 @@ export default function Home() {
           {/* Logo Section */}
           <div className="flex items-center gap-3">
             <Image 
-              src="/AyoSuruh-Web/AYOS/ayos11.png" 
+              src="/AyoSuruh-Web/AYOS/ayos11.jpeg" 
               alt="Logo ayoSuruh" 
               width={50} 
               height={50}
