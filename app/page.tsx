@@ -10,7 +10,7 @@ export default function Home() {
           {/* Logo Section */}
           <div className="flex items-center gap-3">
             <Image 
-              src="/AyoSuruh-Web/logo-ayosuruh.jpeg" // Nama file baru & path baru
+              src="/AyoSuruh-Web/Logo-AyoSuruh.jpeg" // Nama file baru & path baru
               alt="Logo ayoSuruh" 
               width={50} 
               height={50}
