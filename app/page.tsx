@@ -57,8 +57,7 @@ export default function Home() {
               Layanan Kami
             </a>
             <a 
-              href="/AyoSuruh-Web/ayoSuruh.apk"
-              download="ayoSuruh-App.apk" 
+              href="https://drive.google.com/uc?export=download&id=1GbjWBh-dsv0x9oNjAgd9HVhDailmJWR5" target="_blank" rel="noopener noreferrer" 
               className="flex items-center text-gray-700 hover:text-[#F18B33] font-bold transition gap-3 w-full sm:w-auto justify-center sm:justify-start group cursor-pointer"
             >
               <span className="flex items-center justify-center w-10 h-10 rounded-full border-2 border-[#F18B33] text-[#F18B33] group-hover:bg-[#F18B33] group-hover:text-white transition">
@@ -227,8 +226,7 @@ export default function Home() {
             </p>
             
             <a 
-              href="/AyoSuruh-Web/ayoSuruh.apk" 
-              download="ayoSuruh-App.apk" 
+              href="https://drive.google.com/uc?export=download&id=1GbjWBh-dsv0x9oNjAgd9HVhDailmJWR5" target="_blank" rel="noopener noreferrer" 
               className="inline-flex items-center gap-3 bg-[#1F1F1F] hover:bg-black text-white px-8 py-4 rounded-xl font-bold shadow-lg transition-transform duration-300 transform hover:scale-105"
             >
               <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="2.5" stroke="currentColor" className="w-6 h-6">
@@ -273,12 +271,12 @@ export default function Home() {
                   </svg>
                 ))}
               </div>
-              <p className="text-gray-600 italic mb-6 text-center md:text-left">"Sangat ngebantu banget pas lagi di kampus dan ada barang praktikum yang ketinggalan di kosan. Mitranya ramah dan super cepet nyampenya!"</p>
+              <p className="text-gray-600 italic mb-6 text-center md:text-left">"Awalnya coba karena lagi sibuk di kampus dan butuh titip beli makanan. Proses pesan lewat Ayo Suruh ternyata simpel, dan barangnya sampai sesuai pesanan. Sangat membantu kalau lagi nggak sempat keluar."</p>
             </div>
             <div className="flex flex-col md:flex-row items-center gap-4 text-center md:text-left">
               <div className="w-12 h-12 bg-gray-200 rounded-full flex items-center justify-center text-gray-500 font-bold shrink-0">A</div>
               <div>
-                <h4 className="font-bold text-gray-900">Alief W.</h4>
+                <h4 className="font-bold text-gray-900">Novrizal</h4>
                 <p className="text-sm text-gray-500">Mahasiswa</p>
               </div>
             </div>
@@ -294,7 +292,7 @@ export default function Home() {
                   </svg>
                 ))}
               </div>
-              <p className="text-gray-600 italic mb-6 text-center md:text-left">"Aplikasinya gampang dipakai. Kemarin minta tolong beliin bahan makanan di pasar tradisional, bener-bener dibeliin sesuai catatan. Recommended!"</p>
+              <p className="text-gray-600 italic mb-6 text-center md:text-left">"Aplikasi ini cukup membantu untuk kebutuhan sehari-hari. Saya pernah minta bantuan untuk belanja beberapa barang di pasar, dan semuanya datang sesuai catatan. Komunikasinya juga mudah."</p>
             </div>
             <div className="flex flex-col md:flex-row items-center gap-4 text-center md:text-left">
               <div className="w-12 h-12 bg-[#8EAC79]/20 rounded-full flex items-center justify-center text-[#8EAC79] font-bold shrink-0">B</div>
@@ -315,7 +313,7 @@ export default function Home() {
                   </svg>
                 ))}
               </div>
-              <p className="text-orange-50 italic mb-6 text-center md:text-left">"Saya jomok dan saya bangga. ayo pesan saya untuk bolongin donat, ngaduk kopi, atau kerja di pabrik kecap"</p>
+              <p className="text-orange-50 italic mb-6 text-center md:text-left">"Gabung sebagai mitra Ayo Suruh jadi kesempatan buat mendapatkan penghasilan tambahan di waktu luang. Saya bisa mengambil order yang sesuai dengan waktu dan kemampuan saya."</p>
             </div>
             <div className="flex flex-col md:flex-row items-center gap-4 text-center md:text-left">
               <div className="w-12 h-12 bg-white rounded-full flex items-center justify-center text-[#F18B33] font-bold shrink-0">D</div>
@@ -341,20 +339,20 @@ export default function Home() {
                 Platform aplikasi mobile terpercaya untuk membantu kebutuhan harian mahasiswa, sekaligus membuka peluang penghasilan tambahan antar sesama mahasiswa.
               </p>
               <div className="flex space-x-4 pt-2">
-                <a href="#" className="w-10 h-10 rounded-full border-2 border-[#7C9A6A] flex items-center justify-center text-[#7C9A6A] hover:bg-[#7C9A6A] hover:text-white transition-colors">
+                <a href="https://madouseixalisphera.github.io/AyoSuruh-Web/" className="w-10 h-10 rounded-full border-2 border-[#7C9A6A] flex items-center justify-center text-[#7C9A6A] hover:bg-[#7C9A6A] hover:text-white transition-colors">
                   <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="2">
                     <circle cx="12" cy="12" r="10"></circle>
                     <line x1="2" y1="12" x2="22" y2="12"></line>
                     <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"></path>
                   </svg>
                 </a>
-                <a href="#" className="w-10 h-10 rounded-full border-2 border-[#7C9A6A] flex items-center justify-center text-[#7C9A6A] hover:bg-[#7C9A6A] hover:text-white transition-colors">
+                <a href="https://www.instagram.com/ayo.suruh?igsh=ejZpYWEzdG55MTh3&igsi=ejZpYWEzdG55MTh3" target="_blank" className="w-10 h-10 rounded-full border-2 border-[#7C9A6A] flex items-center justify-center text-[#7C9A6A] hover:bg-[#7C9A6A] hover:text-white transition-colors">
                   <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="2">
                     <circle cx="12" cy="12" r="4"></circle>
                     <path d="M16 8v5a3 3 0 0 0 6 0v-1a10 10 0 1 0-3.92 7.94"></path>
                   </svg>
                 </a>
-                <a href="https://wa.me/628895255693" className="w-10 h-10 rounded-full border-2 border-[#7C9A6A] flex items-center justify-center text-[#7C9A6A] hover:bg-[#7C9A6A] hover:text-white transition-colors">
+                <a href="https://wa.me/628895255693" target="_blank" className="w-10 h-10 rounded-full border-2 border-[#7C9A6A] flex items-center justify-center text-[#7C9A6A] hover:bg-[#7C9A6A] hover:text-white transition-colors">
                   <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="2">
                     <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path>
                     <circle cx="9" cy="7" r="4"></circle>
@@ -386,7 +384,7 @@ export default function Home() {
                   <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="2" stroke="currentColor" className="w-5 h-5 text-[#7C9A6A]">
                     <path strokeLinecap="round" strokeLinejoin="round" d="M21.75 6.75v10.5a2.25 2.25 0 01-2.25 2.25h-15a2.25 2.25 0 01-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0019.5 4.5h-15a2.25 2.25 0 00-2.25 2.25m19.5 0v.243a2.25 2.25 0 01-1.07 1.916l-7.5 4.615a2.25 2.25 0 01-2.36 0L3.32 8.91a2.25 2.25 0 01-1.07-1.916V6.75" />
                   </svg>
-                  <span>halo@ayosuruh.com</span>
+                  <span>ayosuruh@gmail.com</span>
                 </li>
                 <li className="flex flex-col md:flex-row items-center md:items-start gap-3">
                   <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="2" stroke="currentColor" className="w-5 h-5 text-[#7C9A6A] mt-0.5">
